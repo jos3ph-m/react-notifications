@@ -11,6 +11,8 @@ import {
   Box,
 } from '@chakra-ui/react';
 
+function notifyUser() {}
+
 function App() {
   return <ChakraProvider theme={theme}></ChakraProvider>;
 }
