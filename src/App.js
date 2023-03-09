@@ -8,6 +8,7 @@ import {
   AlertDescription,
   Button,
   Container,
+  Box,
 } from '@chakra-ui/react';
 
 function App() {
