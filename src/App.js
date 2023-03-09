@@ -6,6 +6,7 @@ import {
   AlertIcon,
   AlertTitle,
 } from '@chakra-ui/react';
+import { ColorModeSwitcher } from './ColorModeSwitcher';
 
 function App() {
   return <ChakraProvider theme={theme}></ChakraProvider>;
