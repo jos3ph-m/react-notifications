@@ -13,7 +13,10 @@ import {
 
 function notifyUser(
   notificationText = 'Thank you for enabling notifications!'
-) {}
+) {
+  if (!('Notification' in window)) {
+  }
+}
 
 function App() {
   return <ChakraProvider theme={theme}></ChakraProvider>;
