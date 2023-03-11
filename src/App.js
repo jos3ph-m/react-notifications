@@ -28,6 +28,7 @@ function notifyUser(
 }
 
 function App() {
+  const [userResponded, setUserResponded] = useState(false);
   // 3 states
   // 1. We show the 'Would you like to enable notifs?'
   // 2. Show notification related functionality (ie: the button)
