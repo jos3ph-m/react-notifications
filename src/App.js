@@ -17,6 +17,7 @@ function notifyUser(
   if (!('Notification' in window)) {
     alert('Browser does not support notification');
   } else if (Notification.permission === 'granted') {
+    const notification = new Notification();
   }
 }
 
