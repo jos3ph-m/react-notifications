@@ -19,7 +19,11 @@ function notifyUser(
   } else if (Notification.permission === 'granted') {
     const notification = new Notification(notificationText);
   } else if (Notification.permission !== 'denied') {
-    Notification.requestPermission();
+    Notification.requestPermission().then(permission => {
+      if (permission === 'granted') {
+        const notification = new Notification(notificationText);
+      }
+    });
   }
 }
 
