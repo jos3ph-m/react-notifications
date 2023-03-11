@@ -28,6 +28,7 @@ function notifyUser(
 }
 
 function App() {
+  // 3 states
   return <ChakraProvider theme={theme}></ChakraProvider>;
 }
 
