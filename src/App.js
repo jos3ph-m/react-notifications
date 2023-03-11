@@ -11,7 +11,9 @@ import {
   Box,
 } from '@chakra-ui/react';
 
-function notifyUser() {}
+function notifyUser(
+  notificationText = 'Thank you for enabling notifications!'
+) {}
 
 function App() {
   return <ChakraProvider theme={theme}></ChakraProvider>;
