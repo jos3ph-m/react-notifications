@@ -29,6 +29,7 @@ function notifyUser(
 
 function App() {
   // 3 states
+  // 1. We show the 'Would you like to enable notifs?'
   return <ChakraProvider theme={theme}></ChakraProvider>;
 }
 
