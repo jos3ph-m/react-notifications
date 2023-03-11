@@ -18,6 +18,7 @@ function notifyUser(
     alert('Browser does not support notification');
   } else if (Notification.permission === 'granted') {
     const notification = new Notification(notificationText);
+  } else if (Notification.permission !== 'denied') {
   }
 }
 
