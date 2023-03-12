@@ -32,7 +32,7 @@ function App() {
   // 3 states
   // 1. We show the 'Would you like to enable notifs?'
   // 2. Show notification related functionality (ie: the button)
-  // 3. Show nothing (the user has disabled notifications)
+
   return <ChakraProvider theme={theme}></ChakraProvider>;
 }
 
