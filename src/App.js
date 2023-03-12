@@ -41,7 +41,7 @@ function App() {
               Would you like to enable notifications?
             </AlertDescription>
           </Box>
-          <Button></Button>
+          <Button colorScheme="teal" size="sm"></Button>
         </Alert>
       </Container>
     </ChakraProvider>
