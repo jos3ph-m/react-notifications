@@ -30,6 +30,10 @@ function notifyUser(
 function App() {
   const [userResponded, setUserResponded] = useState(false);
 
+  function enableNotifsAndClose() {}
+
+  function disableNotifsAndClose() {}
+
   return !userResponded && !(Notification.permission === 'granted') ? (
     <ChakraProvider theme={theme}>
       <Container>
