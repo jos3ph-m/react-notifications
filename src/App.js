@@ -30,8 +30,12 @@ function notifyUser(
 function App() {
   const [userResponded, setUserResponded] = useState(false);
 
-  return (!userResponded && !(Notification.permission === "granted")) ? (
+  return !userResponded && !(Notification.permission === 'granted') ? (
     <ChakraProvider theme={theme}></ChakraProvider>
+  ) : Notification.permission === 'granted' ? (
+    <ChakraProvider theme={theme}></ChakraProvider>
+  ) : (
+    <></>
   );
 }
 
