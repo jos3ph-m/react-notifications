@@ -41,11 +41,9 @@ function App() {
               Would you like to enable notifications?
             </AlertDescription>
           </Box>
-          <Button
-            colorScheme="teal"
-            size="sm"
-            onClick={enableNotifsAndClose}
-          ></Button>
+          <Button colorScheme="teal" size="sm" onClick={enableNotifsAndClose}>
+            Sure!
+          </Button>
         </Alert>
       </Container>
     </ChakraProvider>
