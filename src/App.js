@@ -44,7 +44,7 @@ function App() {
           <Button colorScheme="teal" size="sm" onClick={enableNotifsAndClose}>
             Sure!
           </Button>
-          <Button colorScheme="gray" size="sm" onClick={enableNotifsAndClose}>
+          <Button colorScheme="gray" size="sm" onClick={disableNotifsAndClose}>
             No thanks!
           </Button>
         </Alert>
