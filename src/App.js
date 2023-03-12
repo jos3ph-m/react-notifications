@@ -37,7 +37,9 @@ function App() {
           <AlertIcon />
           <Box>
             <AlertTitle>Notifications</AlertTitle>
-            <AlertDescription></AlertDescription>
+            <AlertDescription>
+              Would you like to enable notifications?
+            </AlertDescription>
           </Box>
         </Alert>
       </Container>
