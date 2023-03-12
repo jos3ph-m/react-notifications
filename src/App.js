@@ -32,7 +32,11 @@ function App() {
 
   return !userResponded && !(Notification.permission === 'granted') ? (
     <ChakraProvider theme={theme}>
-      <Container></Container>
+      <Container>
+        <Alert status="success">
+          <AlertIcon />
+        </Alert>
+      </Container>
     </ChakraProvider>
   ) : Notification.permission === 'granted' ? (
     <ChakraProvider theme={theme}></ChakraProvider>
