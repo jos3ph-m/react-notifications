@@ -35,6 +35,10 @@ function App() {
       <Container>
         <Alert status="success">
           <AlertIcon />
+          <Box>
+            <AlertTitle>Notifications</AlertTitle>
+            <AlertDescription></AlertDescription>
+          </Box>
         </Alert>
       </Container>
     </ChakraProvider>
