@@ -29,7 +29,6 @@ function notifyUser(
 
 function App() {
   const [userResponded, setUserResponded] = useState(false);
-  // 3 states
 
   return <ChakraProvider theme={theme}></ChakraProvider>;
 }
