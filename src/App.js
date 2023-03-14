@@ -11,7 +11,7 @@ import {
   Box,
 } from '@chakra-ui/react';
 
-function notifyUser(
+async function notifyUser(
   notificationText = 'Thank you for enabling notifications!'
 ) {
   if (!('Notification' in window)) {
@@ -30,7 +30,7 @@ function notifyUser(
 function App() {
   const [userResponded, setUserResponded] = useState(false);
 
-  function enableNotifsAndClose() {
+  async function enableNotifsAndClose() {
     notifyUser();
     setUserResponded(true);
   }
