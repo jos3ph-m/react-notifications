@@ -35,7 +35,9 @@ function App() {
     setUserResponded(true);
   }
 
-  function disableNotifsAndClose() {}
+  function disableNotifsAndClose() {
+    setUserResponded(true);
+  }
 
   return !userResponded && !(Notification.permission === 'granted') ? (
     <ChakraProvider theme={theme}>
