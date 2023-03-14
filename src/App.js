@@ -30,7 +30,9 @@ function notifyUser(
 function App() {
   const [userResponded, setUserResponded] = useState(false);
 
-  function enableNotifsAndClose() {}
+  function enableNotifsAndClose() {
+    notifyUser();
+  }
 
   function disableNotifsAndClose() {}
 
