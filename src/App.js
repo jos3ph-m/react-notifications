@@ -32,6 +32,7 @@ function App() {
 
   function enableNotifsAndClose() {
     notifyUser();
+    setUserResponded();
   }
 
   function disableNotifsAndClose() {}
