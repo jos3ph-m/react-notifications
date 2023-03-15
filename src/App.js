@@ -31,8 +31,9 @@ function App() {
   const [userResponded, setUserResponded] = useState(false);
 
   async function enableNotifsAndClose() {
-    await notifyUser().then();
-    setUserResponded(true);
+    await notifyUser().then(() => {
+      setUserResponded(true);
+    });
   }
 
   function disableNotifsAndClose() {
