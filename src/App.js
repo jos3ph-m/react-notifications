@@ -61,7 +61,9 @@ function App() {
       </Container>
     </ChakraProvider>
   ) : Notification.permission === 'granted' ? (
-    <ChakraProvider theme={theme}></ChakraProvider>
+    <ChakraProvider theme={theme}>
+      <Button></Button>
+    </ChakraProvider>
   ) : (
     <>
       <h1>You have disabled notifications</h1>
