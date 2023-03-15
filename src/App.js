@@ -62,7 +62,11 @@ function App() {
     </ChakraProvider>
   ) : Notification.permission === 'granted' ? (
     <ChakraProvider theme={theme}>
-      <Button colorScheme="gray" size="sm" onClick={notifyUser('Thank you!')}>
+      <Button
+        colorScheme="gray"
+        size="sm"
+        onClick={() => notifyUser('Thank you!')}
+      >
         Click to show a 'Thank you!'
       </Button>
     </ChakraProvider>
