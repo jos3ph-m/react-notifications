@@ -62,7 +62,7 @@ function App() {
     </ChakraProvider>
   ) : Notification.permission === 'granted' ? (
     <ChakraProvider theme={theme}>
-      <Button colorScheme="gray"></Button>
+      <Button colorScheme="gray" size="sm"></Button>
     </ChakraProvider>
   ) : (
     <>
