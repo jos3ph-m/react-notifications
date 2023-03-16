@@ -67,7 +67,7 @@ function App() {
         size="sm"
         onClick={() => notifyUser('Thank you!')}
       >
-        Click to show a Thank you!
+        Click to show a 'Thank you!'
       </Button>
     </ChakraProvider>
   ) : (
