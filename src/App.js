@@ -65,7 +65,7 @@ function App() {
       <Button
         colorScheme="gray"
         size="sm"
-        onClick={() => notifyUser('Thank you for subscribing!')}
+        onClick={() => notifyUser('Thank you so much!')}
       >
         Click to show a 'Thank you!'
       </Button>
