@@ -72,7 +72,7 @@ function App() {
     </ChakraProvider>
   ) : (
     <>
-      <h1>You have disabled notifications</h1>
+      <h1>You've disabled notifications</h1>
     </>
   );
 }
